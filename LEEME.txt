@@ -1,0 +1,22 @@
+INVITACIÓN AL CUMPLEAÑOS DE SANTINO
+
+Abrí index.html para ver la invitación, o subí todos los archivos juntos
+al alojamiento. Mantené las tres imágenes junto al HTML, CSS y JavaScript.
+
+La página usa las imágenes verticales en celular y las versiones terminadas
+en "-web" en pantallas de escritorio. En ambos casos, los tres paneles se
+muestran a todo el ancho disponible y uno debajo del otro. Al entrar, los
+paneles se despliegan en secuencia después de que se abre automáticamente un
+pergamino de papel envejecido con rodillos, decorado al estilo griego. En
+celulares se usa Pergamino-celular.png y en escritorio Pergamino-pc.png. El
+pergamino se desenrolla automáticamente antes de revelar los paneles. Las
+animaciones se desactivan si el dispositivo tiene activada la preferencia de
+movimiento reducido.
+
+El formulario se integra en el panel inferior, debajo del alias y en el
+espacio libre del diseño. En celulares los controles aparecen apilados; en
+escritorio, en una fila para mantenerlos fuera de la máscara.
+
+Al ingresar un nombre y tocar «Confirmar asistencia», se abre WhatsApp al
+número +543878599710 con el mensaje de confirmación preparado. La persona
+debe pulsar Enviar dentro de WhatsApp para mandar el mensaje.

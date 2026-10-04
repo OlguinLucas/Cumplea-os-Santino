@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Invitación al cumpleaños de Santino. Confirmá tu asistencia.">
+  <title>Cumpleaños de Santino</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="pergamino-intro" aria-hidden="true">
+    <div class="pergamino">
+      <picture class="pergamino-imagen">
+        <source media="(min-width: 48.01rem)" srcset="Pergamino-pc.png">
+        <img src="Pergamino-celular.png" alt="" fetchpriority="high">
+      </picture>
+      <div class="pergamino-contenido">
+        <strong>Santino</strong>
+        <span class="pergamino-edicion">XVIII</span>
+      </div>
+    </div>
+  </div>
+  <main class="invitacion" aria-label="Invitación al cumpleaños de Santino">
+    <div class="paneles">
+      <section class="panel-vista" aria-label="Panel superior">
+        <picture>
+          <source media="(min-width: 48.01rem)" srcset="panel-superior-web.png">
+          <img src="panel-superior.png" alt="Invitación al cumpleaños de Santino" fetchpriority="high">
+        </picture>
+      </section>
+      <section class="panel-vista" aria-label="Panel central">
+        <picture>
+          <source media="(min-width: 48.01rem)" srcset="panel-central-web.png">
+          <img src="panel-central.png" alt="Fecha, horario, lugar y código de vestimenta de la celebración">
+        </picture>
+      </section>
+      <section class="panel-vista" aria-label="Panel inferior">
+        <div class="panel-inferior">
+          <picture>
+            <source media="(min-width: 48.01rem)" srcset="panel-inferior-web.png">
+            <img src="panel-inferior.png" alt="Te espero para compartir esta noche especial. Alias: CAMISA.CHINA.FOGATA">
+          </picture>
+          <form id="asistencia" class="asistencia">
+            <label class="visualmente-oculto" for="nombre">Tu nombre</label>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" placeholder="Tu nombre" required maxlength="100" pattern=".*\S.*" title="Ingresá tu nombre" aria-label="Tu nombre">
+            <button type="submit">Confirmar asistencia</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
